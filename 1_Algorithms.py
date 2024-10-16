@@ -29,12 +29,6 @@ def adic(c,z):
     return False
 print(adic(brand,'leica'))
 
-def adic(c,z):
-    for n in c.items():
-        if z == n:
-            return True
-    return False
-print(adic(brand,'leica'))
 
 def swapdic(c):
     newdic = {}
